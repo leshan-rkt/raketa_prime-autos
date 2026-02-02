@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Autos</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <script src="dist/js/bootstrap.js"></script>
+    <style>
+        img:hover{
+            transform: scale(1.2);
+            transition: 2s;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container-fluid bg-secondary">
+        <!-- section 1 -->
+        <section class="row">
+            <div class="col-md-12">
+                <!-- nav will carry all the contents of the navbar -->
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <!-- navbar-brand shows the brand or the name of the website -->
+                    <a href="#" class="navbar-brand"><b>Prime Autos</b></a>
+                    <!-- navbar-toggler only shows when the button is collapsed -->
+                    <!-- data-bs-toggle="collapse" shows the button will show/hide something -->
+                    <!-- data-bs-target points to which element shouldexpand/collapse -->
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- hides content on a small device -->
+                    <!-- navbar-collapse alligns the navbar items when expanded -->
+                    <!-- id connects to the button so that when it clickes it expands on a small device -->
+
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <!-- navbar-nav ensures correct spacing and allignment -->
+                        <div class="navbar-nav">
+                            <!-- nav-link style each link and active shows the active link -->
+                            <a href="index.html" class="nav-link active">Sedan</a>
+                            <a href="#" class="nav-link">Coupe</a>
+                            <a href="#" class="nav-link">Hatchback</a>
+                            <a href="#" class="nav-link">SUV</a>
+                            <a href="#" class="nav-link">Wagon</a>
+                            <a href="#" class="nav-link">Pick Up</a>
+                            <a href="#" class="nav-link">Van
+
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- end of section 1 -->
+
+        <!-- section 2 -->
+        <section class="row mb-2 mt-2">
+            <div class="col-md-12">
+                <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                    <!-- wrapper -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/slide3.jpg" alt="slide1" class="w-100 d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide2.jpg" alt="slide2" class="w-100 d-block" >
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide5.jpg!sw800" alt="slide3" class="w-100 d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide.png" alt="slide4" class="w-100 d-block">
+                        </div>
+                    </div>
+                    <!-- controllers -->
+                    <a href="#mycarousel" data-bs-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon bg-danger"></span>
+                    </a>
+                    <a href="#mycarousel" data-bs-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon bg-danger"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- end of section 2 -->
+
+        <!-- section models -->
+        <h4 style="text-decoration: overline;" class="mt-4">Models</h4>
+        <section class="row">
+            <div class="col-md-2 text-center">
+                <div class="card shadow">
+                    <div class="card-body bg-dark">
+                        <img src="images/Toyotalogo.png" alt="toyota" class="w-100 h-300px">
+                    </div>
+                    <div class="card-footer bg-dark text-light">
+                        <h5>Toyota</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 text-center">
+                <div class="card shadow">
+                    <div class="card-body bg-dark">
+                        <img src="images/subarulogo.png" alt="subaru" class="w-100 h-300px">
+                    </div>
+                    <div class="card-footer bg-dark">
+                        <h5 class="text-light">Subaru</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 text-center">
+                <div class="card shadow">
+                    <div class="card-body bg-dark">
+                        <img src="images/audilogo.png" alt="audi" class="w-100 h-300px">
+                    </div>
+                    <div class="card-footer bg-dark">
+                        <h5 class="text-light">Audi</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 text-center">
+                <div class="card shadow">
+                    <div class="card-body bg-dark">
+                        <img src="images/mercedes logo.png" alt="mercedes" class="w-100 h-300px">
+                    </div>
+                    <div class="card-footer bg-dark">
+                        <h5 class="text-light">mercedes</h5>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-2 text-center">
+                <div class="card shadow">
+                    <div class="card-body bg-dark">
+                        <img src="images/BMW logo.png" alt="bmw" class="w-100 h-300px">
+                    </div>
+                    <div class="card-footer bg-dark">
+                        <h5 class="text-light">BMW</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 text-center">
+                <div class="card shadow">
+                    <div class="card-body bg-dark">
+                        <img src="images/nissanlogo.png" alt="nissan" class="w-100 h-300px">
+                    </div>
+                    <div class="card-footer bg-dark">
+                        <h5 class="text-light">Nissan</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of models -->
+
+        <br><hr><br>
+        
+        <!-- section 1-->
+        <h4 style="text-decoration: overline;">Rentals</h4>
+        <section class="row">
+            <div class="col-md-6">
+                <div>
+                    <img src="images/advert1.avif" alt="advert" class="w-100 h-300px">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <img src="images/advert2.jpg" alt="advert2" class="w-100 h-300px">
+            </div>
+        </section>
+        <!-- end of section 1 -->
+
+        <br><hr><br>
+        
+        <!-- section 2-->
+        <h4 style="text-decoration: overline;">Offers</h4>
+        <section class="row">
+          <div class="col-md-4 text-center">
+                <img src="images/toyotalandcruiser.jpg" alt="landcruiser" class="w-100 h-300px">
+                <b>Ksh <span class="text-success">6,500,000</span></b><br>
+                <span class="badge bg-danger">10% OFF</span>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <img src="images/subaruforester.jpg" alt="forester" class="w-100 h-300px">
+            <b>Ksh <span class="text-success">5,600,000</span></b><br>
+            <span class="badge bg-danger">20% OFF</span>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <img src="images/audiq5.jpeg" alt="q5" class="w-100 h-300px">
+            <b>Ksh <span class="text-success">6,000,000</span></b><br>
+            <span class="badge bg-danger">15% OFF</span>
+          </div>
+        </section>
+        <!-- end of section 2 -->
+
+        <!-- secion 3 -->
+        <section class="row mt-2">
+            <div class="col-md-4 text-center">
+                <img src="images/mercedecGLE350D.jpg" alt="gle350d" class="w-100 h-300px">
+                <b>Ksh <span class="text-success">8,400,000</span></b><br>
+                <span class="badge bg-danger">10% OFF</span>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <img src="images/bmwx6.jpg" alt="x6" class="w-100 h-300px">
+                <b>Ksh <span class="text-success">7,500,000</span></b><br>
+                <span class="badge bg-danger">15% OFF</span>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <img src="images/nissanpatrol.jpg" alt="patrol" class="w-100 h-300px">
+                <b>Ksh <span class="text-success">6,700,000</span></b><br>
+                <span class="badge bg-danger">12% OFF</span>
+            </div>
+        </section>
+        <!-- end of section 3 -->
+
+        <br><hr><br>
+
+        <!-- section 4 -->
+        <h4 style="text-decoration: overline;">Toyota</h4>
+        <section class="row">
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">SUV</div>
+                    <div class="card-body">
+                        <img src="images/toyotasuv.png" alt="toyotasuv" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Coupe</div>
+                    <div class="card-body">
+                        <img src="images/toyotacoupe.jpeg" alt="toyotacoupe" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Sedan</div>
+                    <div class="card-body">
+                        <img src="images/toyotasedan.png" alt="toyotasedan" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Hatchback</div>
+                    <div class="card-body">
+                        <img src="images/toyotahatchback.avif" alt="toyotahatchback" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of section 4 -->
+
+        <br><hr><br>
+
+        <!-- section 5 -->
+        <h4 style="text-decoration: overline;">Subaru</h4>
+        <section class="row">
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">SUV</div>
+                    <div class="card-body">
+                        <img src="images/subarusuv.avif" alt="subarusuv" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Coupe</div>
+                    <div class="card-body">
+                        <img src="images/subarucoupe.webp" alt="subarucoupe" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Sedan</div>
+                    <div class="card-body">
+                        <img src="images/subarusedan.webp" alt="subarusedan" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Hatchback</div>
+                    <div class="card-body">
+                        <img src="images/subaruhatchback.jpg" alt="subaruhatchback" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of section 5 -->
+
+        <br><hr><br>
+
+        <!-- section 6 -->
+        <h4 style="text-decoration: overline;">Audi</h4>
+        <section class="row">
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">SUV</div>
+                    <div class="card-body">
+                        <img src="images/audisuv.png" alt="audisuv" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Coupe</div>
+                    <div class="card-body">
+                        <img src="images/audicoupe.avif" alt="audicoupe" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Sedan</div>
+                    <div class="card-body">
+                        <img src="images/audisedan.webp" alt="audisedan" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Hatchback</div>
+                    <div class="card-body">
+                        <img src="images/audihatchback-removebg-preview.png" alt="audihatchback" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of section 6 -->
+
+        <br><hr><br>
+
+        <!-- section 7 -->
+        <h4 style="text-decoration: overline;">Mercedes</h4>
+        <section class="row">
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">SUV</div>
+                    <div class="card-body">
+                        <img src="images/mercedessuv.jpg" alt="mercedessuv" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Coupe</div>
+                    <div class="card-body">
+                        <img src="images/mercedescoupe-removebg-preview.png" alt="mercedescoupe" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Sedan</div>
+                    <div class="card-body">
+                        <img src="images/mercedessedan.jpg" alt="mercedessedan" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Hatchback</div>
+                    <div class="card-body">
+                        <img src="images/mercedeshatchback.webp" alt="mercedeshatchback" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of section 7 -->
+
+        <br><hr><br>
+
+        <!-- section 8 -->
+        <h4 style="text-decoration: overline;">BMW</h4>
+        <section class="row">
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">SUV</div>
+                    <div class="card-body">
+                        <img src="images/bmwsuv-removebg-preview.png" alt="bmwsuv" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Coupe</div>
+                    <div class="card-body">
+                        <img src="images/bmwcoupe-removebg-preview.png" alt="bmwcoupe" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Sedan</div>
+                    <div class="card-body">
+                        <img src="images/bmwsedan.webp" alt="bmwsedan" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Hatchback</div>
+                    <div class="card-body">
+                        <img src="images/bmwhatchback].jpg" alt="bmwhatchback" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of section 8 -->
+
+        <br><hr><br>
+
+        <!-- section 9 -->
+        <h4 style="text-decoration: overline;">Nissan</h4>
+        <section class="row">
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">SUV</div>
+                    <div class="card-body">
+                        <img src="images/nissansuv.webp" alt="nissansuv" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Coupe</div>
+                    <div class="card-body">
+                        <img src="images/nissancoupe.jpg" alt="nissancoupe" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Sedan</div>
+                    <div class="card-body">
+                        <img src="images/nissansedan.jpg" alt="nissansedan" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header">Hatchback</div>
+                    <div class="card-body">
+                        <img src="images/nissanhatchback.jpg" alt="nissanhatchback" class="w-100 h-300px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of section 9 -->
+
+        <br><hr><br>
+
+
+
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- section footer -->
+        <section class="row bg-secondary text-light p-4 mt-4">
+            <div class="col-md-4">
+                <h4 class="text-center">About Us</h4>
+                <p>At Prime Motors, we believe that finding your next vehicle should be as exciting as the first drive. As a premier destination for [New/Used/Luxury] vehicles, we’ve built our reputation on a simple promise: transparency, quality, and a commitment to you.
+                Prime Mototr is situated on the outskirts of Kitengela along Mombasa Road. For a small fee, we also do shipments to your prefered location 
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h4 class="text-center">Contact Us</h4>
+                <form action="">
+                    <input type="email" placeholder="Enter your email" class="form-control"><br>
+                    <textarea name="" id="" placeholder="Leave a comment.." class="form-control"></textarea><br>
+                    <input type="submit" value="Send a Message" class="btn btn-primary">
+                </form>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <h4 class="text-center">Our Platforms</h4>
+                <p class="mt-2">Ready to upgrade your drive? Whether you're hunting for a sleek sedan or a rugged SUV, the team at Prime Motors is here to get you behind the wheel. Visit the official Prime Motors Inventory to browse our latest arrivals, or reach out directly to schedule a test drive. Contact us on our Customer Support Page or call our sales experts today to experience premium service at every turn!
+                </p>
+
+                <a href="https://www.facebook.com"><img src="images/fb.png" alt="facebook"></a>
+                <a href="https://www.instagram.com"><img src="images/in.png" alt="instagram"></a>
+                <a href="https://www.x.com"><img src="images/x.png" alt="x"></a>
+            </div>
+        </section>
+        <!-- end of section footer -->
+
+        <!-- section copyright -->
+        <section class="row bg-dark text-center text-light pt-3 pd-2">
+            <h5 class="fs-6">Developed by Raketa Leshan. &copy; 2026. All rights Reserved</h5>
+        </section>
+        <!-- end of section copyight -->
+
+
+    </div>
+</body>
+</html>
